@@ -1,5 +1,5 @@
 {% set name = "types-characteristic" %}
-{% set version = "14.3.1" %}
+{% set version = "14.3.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-characteristic-{{ version }}.tar.gz
-  sha256: 345e03675b8df87d62f894d7b7c0f7953e7b425f714f33506f85f00dc72449a3
+  sha256: e8eb0e37fa0787103accb84e654ee59f363c82cdbc904e34f25c1f36cec79ed5
 
 build:
   number: 0
